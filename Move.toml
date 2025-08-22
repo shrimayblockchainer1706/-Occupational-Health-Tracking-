@@ -1,0 +1,15 @@
+[package]
+name = "Occupational-Health-Tracking"
+version = "1.0.0"
+authors = []
+
+[addresses]
+HealthModule ="0x3d09fbabf289aadfd865b87498e6a8962cf495237a8b8c8dc9ca754c5240ca68"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
